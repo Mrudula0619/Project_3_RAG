@@ -1,0 +1,4 @@
+The AI Orchestration Engine (Codename: Project Orchestrator) uses LangGraph to manage stateful agent workflows.
+For data quality, Great Expectations validates raw JSON payloads before vectorization in ChromaDB.
+In the event of a query mismatch, the pipeline routes requests to a Query Rewriter node to improve search precision.
+Cloud cost monitoring is handled separately by the FinOps Cloud Cost Engine utilizing OpenLineage and DataHub.
