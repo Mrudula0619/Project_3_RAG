@@ -23,7 +23,6 @@ Question -> retrieve -> grade relevance -> generate answer -> check grounding ->
                 +-- rewrite query <-- (answer not grounded) --------+
 ```
 
-[TODO: confirm this flow matches your LangGraph nodes and edges. If you cap the number of rewrite attempts, say so here (for example, "up to 3 retries").]
 
 ## Tech stack
 
@@ -52,28 +51,4 @@ pip install -r requirements.txt   # [TODO: confirm this file exists]
 ollama pull llama3.2
 ```
 
-**Run**
 
-```bash
-# [TODO: replace with your real commands, for example:]
-# python ingest.py       # validate, embed, and index documents
-# python main.py "your question here"
-```
-
-## Project structure
-
-```
-# [TODO: paste the output of `tree -L 2` or list your main files]
-```
-
-## Example
-
-```
-# [TODO: add one real example: a question, the retrieved context,
-#  and a case where the query was rewritten. This is the best part
-#  of the README for a recruiter to see.]
-```
-
-## Limitations
-
-- [TODO: one or two honest limits, such as document types supported or model size on local hardware]
