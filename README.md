@@ -39,7 +39,7 @@ Question -> retrieve -> grade relevance -> generate answer -> check grounding ->
 
 **Prerequisites**
 
-- Python [TODO: version]
+- Python 
 - [Ollama](https://ollama.com) installed and running
 
 **Setup**
